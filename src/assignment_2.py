@@ -46,23 +46,16 @@ def newyorker_caption_contest_idefics(args):
         # Each instace has a key 'image' that contains the PIL Image. You will give that to the model as input to "show" it the image instead of an url to the image jpg file.
         
         prompt = [
-        "User: What is in this image?",
-        nyc_data_train_two[0]['image'],
-        "<end_of_utterance>",
-
-        "\nAssistant: %s<end_of_utterance>"%nyc_data_train_two[0]['input'],
-
         "\nUser: What is the caption of this image?",
         nyc_data_train_two[0]['image'],
         "<end_of_utterance>",
 
         "\nAssistant: %s<end_of_utterance>"%nyc_data_train_two[0]['caption_choices'],
 
-        "\nUser: What is in this image?",
-        nyc_data_train_two[1]['image'],
+        "\nUser: What is an explaination for this caption?",
         "<end_of_utterance>",
 
-        "\nAssistant: %s<end_of_utterance>"%nyc_data_train_two[1]['input'],
+        "\nAssistant: %s<end_of_utterance>"%nyc_data_train_two[0]['target'],
 
         "\nUser: What is the caption of this image?",
         nyc_data_train_two[1]['image'],
@@ -70,8 +63,18 @@ def newyorker_caption_contest_idefics(args):
 
         "\nAssistant: %s<end_of_utterance>"%nyc_data_train_two[1]['caption_choices'],
 
+        "\nUser: What is an explaination for this caption?",
+        "<end_of_utterance>",
+
+        "\nAssistant: %s<end_of_utterance>"%nyc_data_train_two[0]['target'],
+
         "\nUser: What is the caption of this image?",
         val_inst['image'],
+        "<end_of_utterance>",
+
+        "\nAssistant: %s<end_of_utterance>"%val_inst['caption_choices'],
+
+        "\nUser: What is an explaination for this caption?",
         "<end_of_utterance>",
 
         "\nAssistant:",
@@ -168,6 +171,12 @@ def newyorker_caption_contest_llama2(args):
 
         "\nAssistant: %s<end_of_utterance>\n"%nyc_data_train_two[0]['caption_choices'],
 
+        "\nUser: What is an explaination for this caption?",
+        "<end_of_utterance>",
+
+        "\nAssistant: %s<end_of_utterance>\n"%nyc_data_train_two[0]['target'],
+
+
         nyc_data_train_two[1]['input'],
         "<end_of_utterance>",
 
@@ -176,10 +185,20 @@ def newyorker_caption_contest_llama2(args):
 
         "\nAssistant: %s<end_of_utterance>\n"%nyc_data_train_two[1]['caption_choices'],
 
+        "\nUser: What is an explaination for this caption?",
+        "<end_of_utterance>",
+
+        "\nAssistant: %s<end_of_utterance>\n"%nyc_data_train_two[1]['target'],
+
         val_inst['input'],
         "<end_of_utterance>",
 
         "\nUser: Given this scene above, what should be the caption?",
+        "<end_of_utterance>",
+
+        "\nAssistant: %s<end_of_utterance>\n"%val_inst['caption_choices'],
+
+        "\nUser: What is an explaination for this caption?",
         "<end_of_utterance>",
 
         "\nAssistant:",
