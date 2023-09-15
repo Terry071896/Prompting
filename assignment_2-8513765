@@ -1,0 +1,86 @@
+Loading model
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:33<00:00, 16.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:33<00:00, 16.95s/it]
+Loading data
+['\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=465x355 at 0x14A5C995FDF0>, '<end_of_utterance>', "\nAssistant: That's it. I'm returning those narciscissors today!<end_of_utterance>", '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=753x566 at 0x14A5C9A47A00>, '<end_of_utterance>', '\nAssistant: Heal!<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor\'s command has both meanings, because the dog is the patient.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=323x211 at 0x14A5C98B2AC0>, '<end_of_utterance>', '\nAssistant: They do say results will vary.<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant:']
+['\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=465x355 at 0x14A5C995FDF0>, '<end_of_utterance>', "\nAssistant: That's it. I'm returning those narciscissors today!<end_of_utterance>", '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=753x566 at 0x14A5C9A47A00>, '<end_of_utterance>', '\nAssistant: Heal!<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor\'s command has both meanings, because the dog is the patient.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=600x600 at 0x14A5C98B25B0>, '<end_of_utterance>', '\nAssistant: Where do the voices tell you to go?<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant:']
+['\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=465x355 at 0x14A5C995FDF0>, '<end_of_utterance>', "\nAssistant: That's it. I'm returning those narciscissors today!<end_of_utterance>", '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=753x566 at 0x14A5C9A47A00>, '<end_of_utterance>', '\nAssistant: Heal!<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor\'s command has both meanings, because the dog is the patient.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=465x380 at 0x14A5C98B2D90>, '<end_of_utterance>', '\nAssistant: In this economy, you have to let the vacation come to you.<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant:']
+['\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=465x355 at 0x14A5C995FDF0>, '<end_of_utterance>', "\nAssistant: That's it. I'm returning those narciscissors today!<end_of_utterance>", '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=753x566 at 0x14A5C9A47A00>, '<end_of_utterance>', '\nAssistant: Heal!<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor\'s command has both meanings, because the dog is the patient.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=684x489 at 0x14A5C9BCC1F0>, '<end_of_utterance>', '\nAssistant: You the Ponzi varmint that lost our nest egg?<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant:']
+['\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=465x355 at 0x14A5C995FDF0>, '<end_of_utterance>', "\nAssistant: That's it. I'm returning those narciscissors today!<end_of_utterance>", '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=753x566 at 0x14A5C9A47A00>, '<end_of_utterance>', '\nAssistant: Heal!<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor\'s command has both meanings, because the dog is the patient.<end_of_utterance>', '\nUser: What is the caption of this image?', <PIL.JpegImagePlugin.JpegImageFile image mode=L size=323x206 at 0x14A5C98B4580>, '<end_of_utterance>', '\nAssistant: Janice, hold all my calls. Indefinitely.<end_of_utterance>', '\nUser: What is an explanation for this caption?', '<end_of_utterance>', '\nAssistant:']
+0:
+
+User: What is the caption of this image? 
+Assistant: That's it. I'm returning those narciscissors today! 
+User: What is an explanation for this caption? 
+Assistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband. 
+User: What is the caption of this image? 
+Assistant: Heal! 
+User: What is an explanation for this caption? 
+Assistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor's command has both meanings, because the dog is the patient. 
+User: What is the caption of this image? 
+Assistant: They do say results will vary. 
+User: What is an explanation for this caption? 
+Assistant: The caption "They do say results will vary" is a humorous way of acknowledging that the outcome of a situation or experiment may not be consistent or predictable. It is often used to lighten the mood or to poke fun at the unpredictability of life or nature. In this image, the three people are sitting in front of a TV, and the caption suggests that the results of their TV watching might be different from what they expected.
+
+1:
+
+User: What is the caption of this image? 
+Assistant: That's it. I'm returning those narciscissors today! 
+User: What is an explanation for this caption? 
+Assistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband. 
+User: What is the caption of this image? 
+Assistant: Heal! 
+User: What is an explanation for this caption? 
+Assistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor's command has both meanings, because the dog is the patient. 
+User: What is the caption of this image? 
+Assistant: Where do the voices tell you to go? 
+User: What is an explanation for this caption? 
+Assistant: The caption is referring to the idea of autonomous vehicles, like self-driving cars, which are becoming more prevalent. The question "Where do the voices tell you to go?" is an attempt to understand the inner workings of these vehicles and how they make decisions. The "voices" in this context could be the artificial intelligence or the programming that guides the car's actions.
+
+2:
+
+User: What is the caption of this image? 
+Assistant: That's it. I'm returning those narciscissors today! 
+User: What is an explanation for this caption? 
+Assistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband. 
+User: What is the caption of this image? 
+Assistant: Heal! 
+User: What is an explanation for this caption? 
+Assistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor's command has both meanings, because the dog is the patient. 
+User: What is the caption of this image? 
+Assistant: In this economy, you have to let the vacation come to you. 
+User: What is an explanation for this caption? 
+Assistant: This caption is a humorous twist on the idea of "going on vacation" and "letting the vacation come to you." Instead of actively planning and taking a trip, the person is suggesting that the vacation should find its way to them. It's a lighthearted way of saying that they are open to opportunities for relaxation and leisure.
+
+3:
+
+User: What is the caption of this image? 
+Assistant: That's it. I'm returning those narciscissors today! 
+User: What is an explanation for this caption? 
+Assistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband. 
+User: What is the caption of this image? 
+Assistant: Heal! 
+User: What is an explanation for this caption? 
+Assistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor's command has both meanings, because the dog is the patient. 
+User: What is the caption of this image? 
+Assistant: You the Ponzi varmint that lost our nest egg? 
+User: What is an explanation for this caption? 
+Assistant: The caption is referring to a man who is involved in a Ponzi scheme, which is a fraudulent investment operation that pays returns to its investors from their own money or the money paid by subsequent investors, rather than from profit earned by the individual or organization running the operation. The man in question has lost the investors' money, and the person speaking to him is expressing their anger and frustration over the situation.
+
+4:
+
+User: What is the caption of this image? 
+Assistant: That's it. I'm returning those narciscissors today! 
+User: What is an explanation for this caption? 
+Assistant: "narciscissors" is a mashup of the words narcissist and scissors. If there was a product called "narciscissors": the narcissist part might cause someone to make flattering hedge trimmings of themselves. This might be annoying to the wife who has to live in a house with these ridiculous sculptures of her husband. 
+User: What is the caption of this image? 
+Assistant: Heal! 
+User: What is an explanation for this caption? 
+Assistant: A play on the words "heel" and "heal". A doctor might hope their patient would heal from a disease. A dog might be taught "heel" as a command which means for your dog to come and stand next to you. Here, the doctor's command has both meanings, because the dog is the patient. 
+User: What is the caption of this image? 
+Assistant: Janice, hold all my calls. Indefinitely. 
+User: What is an explanation for this caption? 
+Assistant: The caption is a play on the phrase "hold all my calls," which means to take all the phone calls that are intended for someone. In this case, the person who is holding all the calls is Janice. The phrase "indefinitely" suggests that Janice will be doing this for an unknown, possibly long period of time. The reason for this action is likely to help the person who is being referred to as "Dr. Sketchy" focus on their work without being interrupted by phone calls.
+
+Loading data
+Loading model
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 15.99s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 17.46s/it]
